@@ -1,0 +1,8 @@
+Trie:
+A try is like the bastard child of a hashtable and a tree. It specializes at retrieval and can beat hastables and trees in very specific situations. It is used often with autocomplete or autosuggest tools. 
+It works by making each node in a tree like a piece of a key for a hashtable. The full keys are found in all leaves. The parents of the leaves will contain parts of the keys that are shared between their children.
+
+Heaps:
+
+A heap is often implemented in a tree or an array. Arrays are more favorable and tend to bring out the strengths of heaps in the particular situations they are designed for like priority queues. A heap excels at quickly finding the  smallest or largest value of a set of values. It loosely sorts data by only ensuring that depending on whether you are using a min heap or max heap the parent nodes are always bigger or smaller than their children.
+
