@@ -13,3 +13,7 @@ Breadth-First vs Depth First:
 When dealing with graphs if you are trying to find a route between multiple points you would first search for path by going to all nearby nodes of x hops away. Then by incrementing x to the next layer of nodes. Thus you get this breadth first approach as you aren't just diving in multiple hops away from origin but, instead looking at all nodes within 1 hop. Then all nodes within 2 hops and so on and so forth.Often times this breadth first search is implemented with a queue. Where you put all nodes in a queue and can therefore dictate what goes first and what has already been checked.
 Depth first is generally implemented via recursion where you use flags to keep track of already visited nodes. It goes node by node asking each node if they have a path to x location and if so as soon as they find a path even if the path isn't the fastest they take it. They don't evaluate the breadth of choices.
 
+Binary Search:
+
+A binary search can only operate on SORTED data. it can be implemented iteratively or recursively. Its fairly self explanatory. Take a sorted collection of objects. Check the value against the half way point. Take one half. Check. Take. Check. Take. Until you either find it or can ascertain that it does not exist.
+
